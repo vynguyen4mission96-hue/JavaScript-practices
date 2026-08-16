@@ -1,3 +1,5 @@
+//var là variable- biến
+
 var fullName = 'Nguyen Thanh Vy'; var age = 100
 
 alert(fullName)
