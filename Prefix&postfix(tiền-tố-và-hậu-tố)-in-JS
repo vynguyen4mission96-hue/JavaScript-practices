@@ -37,4 +37,4 @@ var abc = 6
 //hậu tố copy trả về
 //(6+1)*2 -(7)*2= 0
 var output_5= ++abc * 2 - abc-- *2
-console.log ('output_5:', output_5
+console.log ('output_5:', output_5)
