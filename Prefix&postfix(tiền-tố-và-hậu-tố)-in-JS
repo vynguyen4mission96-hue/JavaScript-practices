@@ -1,0 +1,40 @@
+//toán tử ++ --
+// Prefix & postfix (tiền tố và hậu tố)
+//prefix (tiền tố)
+var a = 6
+//việc 1: + 1 cho a, a= a+1=> a=7
+//việc 2: trả về a sau khi việc 1 tính toán xong (sau khi được +1)
+var output= ++a
+console.log ('output:', output)
+//tương tự
+var d = 6
+--d
+console.log (d)
+var b = 6
+//việc 1: 'b copy', 'b copy' = 6
+//việc 2: trả về 'b copy' = 6
+var output_2= b++
+console.log ('output_2:', output_2)
+//b=7
+console.log ('b:', b)
+var c = 6
+//việc 1: 'c copy', 'c copy' = 6
+//việc 2: trừ 1 của c, c= c-1=> c= 5
+//việc 3: trả về 'c copy' = 6
+var output_3= c--
+console.log ('output_3:', output_3)
+//a=5
+console.log ('c:', c)
+// example
+var number = 6
+// (number++) copy=6 rồi trả về 6
+// (--number) nhận giá trị = 7 sau khi (number++) thực hiện xong (6+1), sau đó trừ -1= 6, rồi mới trả về 6
+//6+6=12
+var output_4 = number++ + --number
+console.log ('output_4:', output_4)
+var abc = 6
+//tiền tố tính xong trả về
+//hậu tố copy trả về
+//(6+1)*2 -(7)*2= 0
+var output_5= ++abc * 2 - abc-- *2
+console.log ('output_5:', output_5
